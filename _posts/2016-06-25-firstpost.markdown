@@ -1,10 +1,11 @@
 ---
 layout: post
 title: First post!
-date: '2016-06-25 10:00 PM'
+date: '2016-06-25 09:30 PM'
 description: An introduction to my new blog
 categories:
   - blog
+  - introduction
 permalink: /post/1
 ---
 
