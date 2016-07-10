@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Education in China
-date: '2016-06-26 10:00 PM'
+date: '2016-07-10 9:00 PM'
 description: A Short Discussion on Education in China
 categories:
   - education
