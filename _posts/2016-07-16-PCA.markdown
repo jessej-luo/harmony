@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PCA - Principle Components Analysis
-date: '2016-07-13 9:00 PM'
+date: '2016-07-16 9:00 PM'
 description: A learning experience regarding PCA
 categories:
   - education
