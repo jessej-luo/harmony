@@ -1,0 +1,40 @@
+---
+layout: post
+title: PCA - Principle Components Analysis
+date: '2016-07-13 9:00 PM'
+description: A learning experience regarding PCA
+categories:
+  - education
+  - machine learning
+permalink: /post/3
+---
+
+I've been going through Sebastian Raschka's book - *Python Machine Learning* and although it's an excellent book on learning machine learning, I often find myself a bit confused on some of the topics requiring me to go more indepth online and do some more research. This might be because I've yet to take a class on machine learning, but I thought I would jump right in and learn some ideas beforehand! My most recent challenge was understanding Principle Components Analysis and I thought maybe doing a blog post on this would be helpful to understanding PCA and providing more insight. Before I start, I thought I'd like to mention that any bolded words in the post were ones that required definitions, so I'll post those definitions at the bottom of the post. 
+
+
+## PCA Overview
+In machine learning, there's the curse of dimensionality, which is essentially the idea that if we have more dimensions, it makes it significantly more difficult to search through the space becomes significantly more difficult and harder to find the trends we're looking for. As an author on Quora, Kevin Lacker, explains Las paraphrased:
+
+>Straight line of 100 hards to find a coin, not too hard (1 dimension)
+
+>Square of 100 yards by 100 yards to find a coin, pretty hard, you would have to search a soccer field (2 dimensions)
+
+>Cube of 100 yards, so six faces of 100 by 100 yard sides to find a coin, extremely hard, could take forever (3 dimensions)
+
+>Curse of dimensionality, as we increase the dimensions it becomes much harder to "find" what we're looking for. 
+
+### What is PCA?
+What PCA affords us is the ability to reduce the number of dimensions by looking for the most important features in a dataset and discarding the ones we find to be least relevant. This allows us to reduce our data to have only the most important attributes and makes our "search" easier than it was before. 
+
+## Background Math Knowledge
+In order to perform PCA, we'll have to have some knowledge about linear algebra and statistics. Furthermore, to perform calculations, I'll be using Python and you can follow along. I'll be using  **numpy**.
+
+### Standard Deviation, Variance, and Covariance
+
+#### Definitions
+**Dimensions:** Often refers to the number of attributes, so when we say reducing number of dimensions, we mean removing irrelevant attributes and only retaining relevant ones. 
+
+**numpy:** This is here in case you haven't used this library. It's a math library that has a lot of useful functions for performing calculations. I use it as np. To use it just do 
+```python
+import numpy as np
+```
